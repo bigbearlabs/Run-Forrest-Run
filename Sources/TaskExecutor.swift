@@ -78,7 +78,7 @@ extension TaskExecutor : Executor {
 
 extension NSPipe {
     func read() -> String? {
-        return String(data: self.fileHandleForReading.availableData, encoding: NSUTF8StringEncoding)
+        return String(data: self.fileHandleForReading.readDataToEndOfFile(), encoding: NSUTF8StringEncoding)
     }
     
     func write(str: String) {
