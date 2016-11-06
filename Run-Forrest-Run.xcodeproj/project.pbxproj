@@ -231,6 +231,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Michele Gruppioni";
 				TargetAttributes = {
+					51D7A2BE1DCCE99B00FD5D4C = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
 					90C4235B1C44752400F57B37 = {
 						CreatedOnToolsVersion = 7.2;
 					};
