@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8A0D9EDB4253BBF2B80D5119CDC9F352FFA4616B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8A0D9EDB4253BBF2B80D5119CDC9F352FFA4616B" : 0,
+    "6C71DF8D4EAED84A4BB92018D54642F26E11361D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4569C489-BF93-494B-9A02-B7B62F36B197",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8A0D9EDB4253BBF2B80D5119CDC9F352FFA4616B" : "Run-Forrest-Run\/",
+    "6C71DF8D4EAED84A4BB92018D54642F26E11361D" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Run-Forrest-Run",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Run-Forrest-Run.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:bigbearlabs\/contexter.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6C71DF8D4EAED84A4BB92018D54642F26E11361D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bigbearlabs\/Run-Forrest-Run.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A0D9EDB4253BBF2B80D5119CDC9F352FFA4616B"
+    }
+  ]
+}

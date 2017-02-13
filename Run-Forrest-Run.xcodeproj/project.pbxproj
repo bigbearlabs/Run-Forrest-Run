@@ -19,7 +19,6 @@
 		9010D7871C4968EC00F577D9 /* CommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9010D7861C4968EC00F577D9 /* CommandFactory.swift */; };
 		9010D7881C4968EC00F577D9 /* CommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9010D7861C4968EC00F577D9 /* CommandFactory.swift */; };
 		90A9F9B31C45A85E00D32E4A /* Forrest-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A9F9B21C45A85E00D32E4A /* Forrest-Tests.swift */; };
-		90C4237D1C44777800F57B37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90C4237B1C44777800F57B37 /* Info.plist */; };
 		90C423841C4477D500F57B37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C423831C4477D500F57B37 /* main.swift */; };
 		90C423861C44781800F57B37 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C423851C44781800F57B37 /* Command.swift */; };
 		90C423871C44781800F57B37 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C423851C44781800F57B37 /* Command.swift */; };
@@ -228,7 +227,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Michele Gruppioni";
 				TargetAttributes = {
 					51D7A2BE1DCCE99B00FD5D4C = {
@@ -274,7 +273,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C4237D1C44777800F57B37 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +390,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -436,8 +436,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -456,6 +458,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -463,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -470,6 +474,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};

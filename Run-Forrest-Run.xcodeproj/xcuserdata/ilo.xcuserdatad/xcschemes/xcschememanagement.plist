@@ -7,17 +7,22 @@
 		<key>Run-Forrest-Run-Tests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>36</integer>
 		</dict>
 		<key>Run-Forrest-Run.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>35</integer>
+		</dict>
+		<key>RunForestRun.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
 		</dict>
 		<key>RunForestRunFramework.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>38</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
